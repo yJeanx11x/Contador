@@ -1,0 +1,55 @@
+section{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+}
+.contener{
+        width: 300px;
+        height: 200px;
+        background-color: aqua;
+        text-align: center;
+      padding: 5px;
+      border-radius: 15px;
+
+}
+.numero{
+display: flex;
+justify-content: center;
+background-color: beige;
+border-radius: 35px;
+}
+h1{
+        font-size: 35pt;
+}
+.up{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+}
+.bx {
+        font-size: 25pt;
+        margin-top: 20px;
+}
+.bxs-left-arrow-circle:hover {
+        color:red;
+        transition: 0.3s;
+}
+.bx-pause-circle:hover{
+        color: gray;
+        transition: 0.3s;
+}
+.bxs-right-arrow-circle:hover{
+        color: rgb(0, 216, 0);
+        transition: 0.3s;
+}
+.bx:hover{
+        font-size: 26pt;
+        cursor: pointer;
+}
+.verde{
+        color: rgb(0, 216, 0);
+
+}
+.vermelho{
+color: red;
+}
